@@ -19,6 +19,8 @@ Will return the current sum of all `msg.payload` values as output `msg.payload`.
 
 The sum can be reset with an incoming message that contains `msg.reset`. Then all stored data will be removed and the initial sum starts at zero again.
 
+Sample Node-RED flow is included in /examples folder 
+
 ## License
 
 This project is licensed under the Apache 2.0 license.
